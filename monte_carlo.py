@@ -1,6 +1,5 @@
 # Monte Carlo Randomwalk price evolution
 
-
 import numpy as np
 import math
 import matplotlib.pyplot as plt
