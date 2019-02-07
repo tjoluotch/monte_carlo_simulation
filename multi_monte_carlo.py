@@ -62,3 +62,6 @@ plt.show()
 
 # use numpy mean function to calculate the mean of the result
 print('mean:', round(np.mean(result), 2))
+
+print("5% Quantile: There is a 5% chance of the stock price ending up BELOW", np.percentile(result, 5))
+print("95% Quantile = There is a 5% chance of the stock price ending up ABOVE", np.percentile(result, 95))
