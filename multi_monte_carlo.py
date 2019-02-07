@@ -59,3 +59,6 @@ plt.show()
 # create Histogram of ending day stock value for the 10000 simulations run
 plt.hist(result, bins=50)
 plt.show()
+
+# use numpy mean function to calculate the mean of the result
+print('mean:', round(np.mean(result), 2))
